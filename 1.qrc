@@ -1,0 +1,21 @@
+<RCC>
+  <qresource>
+    <file>images/add.png</file>
+    <file>images/addd.png</file>
+    <file>images/admin.png</file>
+    <file>images/book_publish_publishing_icon_220402.png</file>
+    <file>images/business_chart_finance_pie_statistics_icon_127241.png</file>
+    <file>images/delete.png</file>
+    <file>images/ic_warning_128_28766.png</file>
+    <file>images/Icon.png</file>
+    <file>images/insert.png</file>
+    <file>images/pie_chart_icon_205092.png</file>
+    <file>images/receipt_add_icon_177414.png</file>
+    <file>images/receipt_cancel_icon_177356.png</file>
+    <file>images/remove.png</file>
+    <file>images/renew.png</file>
+    <file>images/search.png</file>
+    <file>images/signout_106525.png</file>
+    <file>images/website_maintenance_settings_window_icon_193867.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理员系统</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_packages_insert">
+       <attribute name="title">
+        <string>快件录入</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_10">
+              <property name="text">
+               <string>运单号：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_11">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButton">
+              <property name="minimumSize">
+               <size>
+                <width>111</width>
+                <height>111</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>22</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>录入</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../OneDrive/Express_admin_system/images/images.qrc">
+                <normaloff>:/images/add.png</normaloff>:/images/add.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>64</width>
+                <height>64</height>
+               </size>
+              </property>
+              <property name="toolButtonStyle">
+               <enum>Qt::ToolButtonTextUnderIcon</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QTableWidget" name="tableWidget">
+            <column>
+             <property name="text">
+              <string>选择</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>待录入运单号</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>寄件人</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>寄件人电话</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>寄件地址</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>收件人</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>收件人电话</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>收件地址</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_packages_manage">
+       <attribute name="title">
+        <string>快件管理</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLineEdit" name="lineEdit"/>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButton_search">
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../OneDrive/Express_admin_system/images/images.qrc">
+              <normaloff>:/images/search.png</normaloff>:/images/search.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QListWidget" name="listWidget"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QToolButton" name="toolButton_modify">
+            <property name="minimumSize">
+             <size>
+              <width>111</width>
+              <height>111</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>修改</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../OneDrive/Express_admin_system/images/images.qrc">
+              <normaloff>:/images/addd.png</normaloff>:/images/addd.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>64</width>
+              <height>64</height>
+             </size>
+            </property>
+            <property name="toolButtonStyle">
+             <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="toolButton_remove">
+            <property name="minimumSize">
+             <size>
+              <width>111</width>
+              <height>111</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>删除</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../OneDrive/Express_admin_system/images/images.qrc">
+              <normaloff>:/images/remove.png</normaloff>:/images/remove.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>64</width>
+              <height>64</height>
+             </size>
+            </property>
+            <property name="toolButtonStyle">
+             <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_news_insert">
+       <attribute name="title">
+        <string>新闻发布</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_news_mantain">
+       <attribute name="title">
+        <string>新闻维护</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../OneDrive/Express_admin_system/images/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
