@@ -36,7 +36,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.chart = None
         self.setupUi(self)
 
-        self.sql = SQL('192.168.111.111', 'root', '0125', 'express')
+        self.sql = SQL('localhost', 'root', '44910244', 'express')
         # self.sql = SQL('localhost', 'root', '123456', 'express')
 
         self.show_login()
