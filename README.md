@@ -13,8 +13,10 @@
 #### 额外
 
 1. 我负责编码的管理员端，所以仅有这部分的源码。界面会自动刷新。
-2.  **额外需要安装的库有`PyQt6 PyQt6-Charts mysql-connector-python`，不要装成了`mysql-connector`，该库已被弃用。**
+2. **额外需要安装的库有`PyQt6 PyQt6-Charts mysql-connector-python`，不要装成了`mysql-connector`，该库已被弃用。**
 3. 上面库也可能会被弃用，如有问题，建议查询[PyPI · The Python Package Index](https://pypi.org/)。
+4. 部署视频见[课程设计_快递管理系统_管理员端_软件工程_PyQt6_部署演示_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Lw411i7W8/)
+5. 抽空乱写的用户端见[UWillno/Express_user_system: 快递管理系统-用户端（课设） (github.com)](https://github.com/UWillno/Express_user_system)，不是WEB端，但可以跨平台。
 
 #### 功能截图
 ##### 登录功能

@@ -36,7 +36,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.chart = None
         self.setupUi(self)
 
-        self.sql = SQL('localhost', 'root', '44910244', 'express')
+        self.sql = SQL('localhost', 'root', '123456', 'express')
         # self.sql = SQL('localhost', 'root', '123456', 'express')
 
         self.show_login()
@@ -47,7 +47,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             a0.ignore()
 
     def show_login(self):
-        self.force_top()
+        # self.force_top()
         self.login_widget = AuthenticationWin(self.sql)
         self.login_widget.setWindowFlags(Qt.WindowType.WindowStaysOnTopHint)
         self.login_widget.show()
